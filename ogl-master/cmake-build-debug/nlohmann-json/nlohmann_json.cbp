@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nlohmann_json"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw-3.1.2\;CMake Files\external\glfw-3.1.2\src\;CMake Files\external\glfw-3.1.2\docs\;CMake Files\external\glfw-3.1.2\examples\;CMake Files\external\glfw-3.1.2\tests\;CMake Files\external\rpavlik-cmake-modules-fe2273\;CMake Files\external\rpavlik-cmake-modules-fe2273\launcher-templates\;CMake Files\external\assimp-3.0.1270\;CMake Files\external\assimp-3.0.1270\contrib\;CMake Files\external\assimp-3.0.1270\contrib\zlib\;CMake Files\external\assimp-3.0.1270\code\;CMake Files\external\bullet-2.81-rev2613\;CMake Files\external\bullet-2.81-rev2613\src\;CMake Files\external\bullet-2.81-rev2613\src\BulletSoftBody\;CMake Files\external\bullet-2.81-rev2613\src\BulletCollision\;CMake Files\external\bullet-2.81-rev2613\src\BulletDynamics\;CMake Files\external\bullet-2.81-rev2613\src\LinearMath\;CMake Files\nlohmann-json\;CMake Files\nlohmann-json\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/nlohmann-json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\docs\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\docs\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\examples\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/glfw-3.1.2/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\tests\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/rpavlik-cmake-modules-fe2273/CleanDirectoryList.cmake">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/rpavlik-cmake-modules-fe2273/CreateLaunchers.cmake">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/rpavlik-cmake-modules-fe2273/FindGDB.cmake">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/rpavlik-cmake-modules-fe2273/MSVCMultipleProcessCompile.cmake">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/rpavlik-cmake-modules-fe2273/launcher-templates/targetlauncher.sh.in">
+			<Option virtualFolder="CMake Files\external\rpavlik-cmake-modules-fe2273\launcher-templates\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/assimp-3.0.1270/contrib/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.0.1270\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/assimp-3.0.1270/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.0.1270\code\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\bullet-2.81-rev2613\src\BulletSoftBody\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/bullet-2.81-rev2613/src/BulletCollision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\bullet-2.81-rev2613\src\BulletCollision\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\bullet-2.81-rev2613\src\BulletDynamics\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/external/bullet-2.81-rev2613/src/LinearMath/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\bullet-2.81-rev2613\src\LinearMath\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/nlohmann-json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\nlohmann-json\"/>
+		</Unit>
+		<Unit filename="/home/kaleado/Programming/ogl-renderer/ogl-master/nlohmann-json/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\nlohmann-json\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

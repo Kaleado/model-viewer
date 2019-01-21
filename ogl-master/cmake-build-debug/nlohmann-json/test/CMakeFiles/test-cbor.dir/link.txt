@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -g -fno-strict-aliasing -O2 -pthread -lGraphicsMagick++ -lGraphicsMagick -ljbig -lwebp -lwebpmux -llcms2 -ltiff -lfreetype -ljpeg -lpng16 -lwmflite -lXext -lSM -lICE -lX11 -llzma -lbz2 -lxml2 -lz -lm -lgomp -lpthread -g  -rdynamic CMakeFiles/test-cbor.dir/src/unit-cbor.cpp.o CMakeFiles/catch_main.dir/src/unit.cpp.o  -o test-cbor 

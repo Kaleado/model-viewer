@@ -1,0 +1,165 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbf23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbf23.dir/build.make CMakeFiles/cmTC_bbf23.dir/build
+make[1]: Entering directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbf23.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bbf23.dir/CheckSymbolExists.c.o   -c /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bbf23
+/home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbf23.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bbf23.dir/CheckSymbolExists.c.o  -o cmTC_bbf23 
+CMakeFiles/cmTC_bbf23.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bbf23.dir/build.make:86: recipe for target 'cmTC_bbf23' failed
+make[1]: *** [cmTC_bbf23] Error 1
+make[1]: Leaving directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_bbf23/fast' failed
+make: *** [cmTC_bbf23/fast] Error 2
+
+File /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2c23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2c23.dir/build.make CMakeFiles/cmTC_f2c23.dir/build
+make[1]: Entering directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2c23.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f2c23.dir/CheckFunctionExists.c.o   -c /home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2c23
+/home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2c23.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f2c23.dir/CheckFunctionExists.c.o  -o cmTC_f2c23 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f2c23.dir/build.make:86: recipe for target 'cmTC_f2c23' failed
+make[1]: *** [cmTC_f2c23] Error 1
+make[1]: Leaving directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f2c23/fast' failed
+make: *** [cmTC_f2c23/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4cff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4cff.dir/build.make CMakeFiles/cmTC_c4cff.dir/build
+make[1]: Entering directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4cff.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c4cff.dir/CheckSymbolExists.c.o   -c /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c4cff
+/home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4cff.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c4cff.dir/CheckSymbolExists.c.o  -o cmTC_c4cff 
+CMakeFiles/cmTC_c4cff.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c4cff.dir/build.make:86: recipe for target 'cmTC_c4cff' failed
+make[1]: *** [cmTC_c4cff] Error 1
+make[1]: Leaving directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c4cff/fast' failed
+make: *** [cmTC_c4cff/fast] Error 2
+
+File /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb711/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb711.dir/build.make CMakeFiles/cmTC_cb711.dir/build
+make[1]: Entering directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb711.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cb711.dir/CheckFunctionExists.c.o   -c /home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb711
+/home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb711.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cb711.dir/CheckFunctionExists.c.o  -o cmTC_cb711 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cb711.dir/build.make:86: recipe for target 'cmTC_cb711' failed
+make[1]: *** [cmTC_cb711] Error 1
+make[1]: Leaving directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_cb711/fast' failed
+make: *** [cmTC_cb711/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ee4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ee4f.dir/build.make CMakeFiles/cmTC_1ee4f.dir/build
+make[1]: Entering directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ee4f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1ee4f.dir/CheckSymbolExists.c.o   -c /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1ee4f
+/home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ee4f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1ee4f.dir/CheckSymbolExists.c.o  -o cmTC_1ee4f 
+CMakeFiles/cmTC_1ee4f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1ee4f.dir/build.make:86: recipe for target 'cmTC_1ee4f' failed
+make[1]: *** [cmTC_1ee4f] Error 1
+make[1]: Leaving directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_1ee4f/fast' failed
+make: *** [cmTC_1ee4f/fast] Error 2
+
+File /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8fbf5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fbf5.dir/build.make CMakeFiles/cmTC_8fbf5.dir/build
+make[1]: Entering directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fbf5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8fbf5.dir/CheckFunctionExists.c.o   -c /home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8fbf5
+/home/kaleado/Downloads/CLion-2018.2.3/clion-2018.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fbf5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8fbf5.dir/CheckFunctionExists.c.o  -o cmTC_8fbf5 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8fbf5.dir/build.make:86: recipe for target 'cmTC_8fbf5' failed
+make[1]: *** [cmTC_8fbf5] Error 1
+make[1]: Leaving directory '/home/kaleado/Programming/ogl-renderer/ogl-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_8fbf5/fast' failed
+make: *** [cmTC_8fbf5/fast] Error 2
+
+
